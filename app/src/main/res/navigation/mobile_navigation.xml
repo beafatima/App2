@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/gameplay">
+
+    <fragment
+        android:id="@+id/gameplay"
+        android:name="com.example.app2.ui.gameplay.GameplayFragment"
+        android:label="Gameplay"
+        tools:layout="@layout/fragment_gameplay" />
+
+    <fragment
+        android:id="@+id/archive"
+        android:name="com.example.app2.ui.archive.ArchiveFragment"
+        android:label="Archive"
+        tools:layout="@layout/fragment_archive" />
+
+    <fragment
+        android:id="@+id/match"
+        android:name="com.example.app2.ui.match.MatchFragment"
+        android:label="Match History"
+        tools:layout="@layout/fragment_match" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.app2.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/faqs"
+        android:name="com.example.app2.ui.faqs.faqsFragment"
+        android:label="FAQs"
+        tools:layout="@layout/fragment_faqs" />
+
+    <fragment
+        android:id="@+id/feedback"
+        android:name="com.example.app2.ui.feedback.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.app2.ui.logout.LogoutFragment"
+        android:label="Login Page"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
